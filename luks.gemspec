@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["augusts.bautra@gmail.com"]
 
   spec.summary       = %q{Use colorful puts alternatives!}
-  spec.description   = %q{A zero-dependency gem for colorful futs variants.}
+  spec.description   = %q{A zero-dependency gem for colorful puts variants.}
   spec.homepage      = "https://github.com/Epigene/luks"
   spec.license       = "MIT"
 
