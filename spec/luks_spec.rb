@@ -1,4 +1,3 @@
-require 'spec_helper'
 # rspec spec/luks_spec.rb
 describe Luks do
   it 'has a version number' do

@@ -1,4 +1,3 @@
-require 'spec_helper'
 # rspec spec/luks_colors_spec.rb
 RSpec.describe "Luks colors" do
   describe ".red(text)" do
@@ -46,6 +45,14 @@ RSpec.describe "Luks colors" do
       expect(STDOUT).to receive(:puts).with("\e[36m This is cyan! \e[0m")
 
       cyan " This is cyan! "
+    end
+  end
+
+  describe ".gray(text)" do
+    it "should output grey text" do
+      expect(STDOUT).to receive(:puts).with("\e[36m This is grey! \e[0m")
+
+      gray " This is grey! "
     end
   end
 end
